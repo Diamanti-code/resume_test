@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: top;
+}
+
+.foto {
+    width: 200px;
+}
+
+.fotoUser {
+    width: 100%;
+    height: auto;
+}
